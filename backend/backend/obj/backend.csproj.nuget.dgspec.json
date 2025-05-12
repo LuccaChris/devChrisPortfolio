@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\207.cllamaral\\Desktop\\devChrisPortfolio\\backend\\backend\\backend.csproj": {}
+    "C:\\Users\\207.cllamaral\\Documents\\GitHub\\BotTLG\\BotTLG\\devChrisPortfolio\\backend\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\207.cllamaral\\Desktop\\devChrisPortfolio\\backend\\backend\\backend.csproj": {
+    "C:\\Users\\207.cllamaral\\Documents\\GitHub\\BotTLG\\BotTLG\\devChrisPortfolio\\backend\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\207.cllamaral\\Desktop\\devChrisPortfolio\\backend\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\207.cllamaral\\Documents\\GitHub\\BotTLG\\BotTLG\\devChrisPortfolio\\backend\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\207.cllamaral\\Desktop\\devChrisPortfolio\\backend\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\207.cllamaral\\Documents\\GitHub\\BotTLG\\BotTLG\\devChrisPortfolio\\backend\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\207.cllamaral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\207.cllamaral\\Desktop\\devChrisPortfolio\\backend\\backend\\obj\\",
+        "outputPath": "C:\\Users\\207.cllamaral\\Documents\\GitHub\\BotTLG\\BotTLG\\devChrisPortfolio\\backend\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\207.cllamaral\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.310/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KvSPPu0UqMQ=",
+  "dgSpecHash": "mEtEdmx0BDg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\207.cllamaral\\Desktop\\devChrisPortfolio\\backend\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\207.cllamaral\\Documents\\GitHub\\BotTLG\\BotTLG\\devChrisPortfolio\\backend\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\207.cllamaral\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.3.0\\microsoft.aspnetcore.cors.2.3.0.nupkg.sha512",
     "C:\\Users\\207.cllamaral\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
