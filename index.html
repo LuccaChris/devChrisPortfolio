@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>Christian Amaral - Portfólio</title>
   <link rel="stylesheet" href="../frontend/css/style.css">
 </head>
+
 <body>
-  <section id="perfil">
-    <div class="apPerfil">
+  <div class="body-container">
+    <div class="card-body-container">
+      <section id="perfil">
+        <div class="apPerfil">
+          <h1 id="nome"></h1>
+          <img src="../assets/profile picture.png" alt="Foto de Christian" width="150">
+        </div>
+        <div class="infoPerfil">
+          <h5>Endereço</h5>
+          <p id="cidade"></p>
+          <div class="divisoria"></div>
 
-        <h1 id="nome"></h1>
-        <img src="../assets/profile picture.png" alt="Foto de Christian" width="150">
-    </div>
-    <div class="infoPerfil">
-        <h5>Endereço</h5>
-        <p id="cidade"></p>
-        <div class="divisoria"></div>
-        <h5>telefone</h5>
-        <p id="telefone"></p>
-        <h5>e-Mail</h5>
-        <p id="email"></p>
-        <div class="divisoria"></div>
-    </div>
-  </section>
-<div>
+          <h5>Telefone</h5>
+          <p id="telefone"></p>
 
-    <section>
-        <h2>Educação</h2>
-        <p id="educacao"></p>
-    </section>
-    
-    <section>
-        <h2>Experiência</h2>
-        <p id="experiencia"></p>
-    </section>
-    
-    <section>
-        <h2>Habilidades</h2>
-        <p class="Habilidades" id="habilidades"></p>
-    </section>
+          <h5>E-mail</h5>
+          <p id="email"></p>
+          <div class="divisoria"></div>
+        </div>
+      </section>
+
+      <div class="container-info">
+        <section>
+          <h2>Educação</h2>
+          <p id="educacao"></p>
+        </section>
+
+        <section class="experiencia">
+          <h2>Experiência</h2>
+          <p id="experiencia"></p>
+        </section>
+
+        <section>
+          <h2>Habilidades</h2>
+          <p class="habilidades" id="habilidades"></p>
+        </section>
+      </div>
+    </div>
+<div class="cont-nav">
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../frontend/html/portfolio.html">Portfólio</a></li>
+      <li><a href="../frontend/html/contato.html">Contato</a></li>
+    </ul>
+  </nav>
 </div>
+  </div>
 
-  <script src="./frontend/js/script.js"></script>
+  <script src="../frontend/js/script.js"></script>
 </body>
+
 </html>

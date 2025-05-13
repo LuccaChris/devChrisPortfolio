@@ -1,33 +1,136 @@
 body {
   font-family: monospace, sans-serif;
-    background-color:#000000;
-    margin: 0;
-    padding: 0;
-    margin-top: 50px;
+  background-color: #0e0d0d;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
 }
-  
-  
-  #perfil {
-    background-color: #00565c;
-    text-align: center;
-    display: flex;
-    justify-content: center
-  }
-  .divisoria{
-    background-color: black;
-    height: 0.2px;
-    width: 150px;
-  }
-  #perfil p{
-    text-align: justify;
-    margin: 7px;
-  }
-  
-  .Habilidades{
-    white-space: pre-line;
-  }
-  .infoPerfil{
-    display: flex;
-    align-items: flex-start;
 
-  }
+.body-container {
+  background-color: #000;
+  margin: 5px;
+  border-radius: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+}
+
+.card-body-container {
+  background-color: #f7f7f7;
+  border-radius: 16px;
+}
+
+.cont-nav {
+  background-color: aqua;
+  display: flex;
+}
+
+nav ul {
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Perfil */
+#perfil {
+  max-width: 100%;
+  border-radius: 14px 0 16px 16px;
+  background-color: #00565c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.apPerfil {
+  margin: 0 7px 0 0;
+}
+
+.apPerfil img {
+  border-radius: 16px;
+  width: 120px;
+  height: 150px;
+  margin-left: 7px;
+}
+
+.divisoria {
+  background-color: black;
+  height: 1px;
+  width: 190px;
+  margin: 5px 0;
+}
+
+#perfil p {
+  text-align: justify;
+  margin: 1px 0 7px;
+  color: #fff;
+}
+
+#perfil h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+#perfil h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 7px 0;
+  color: #fff;
+}
+
+/* Info adicional */
+.infoPerfil {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-bottom: 14px;
+}
+
+/* Habilidades */
+.habilidades {
+  white-space: pre-line;
+  color: #000;
+}
+
+/* Container de info */
+.container-info {
+  margin-top: 7px;
+  background-color: #fdfdfd;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.container-info h2 {
+  margin: 0 0 7px 7px;
+  font-size: 18px;
+  color: #070707;
+}
+
+.container-info p {
+  margin: 0 0 14px 14px;
+  font-size: 14px;
+  color: #070707;
+}
+
+/* Experiência */
+.experiencia p {
+  height: 36px;
+  max-width: 480px;
+}
