@@ -10,25 +10,26 @@ body {
   background-color: #000;
   margin: 5px;
   border-radius: 16px;
-  height: 100%;
+  border: 5px solid orange;
   display: flex;
-  flex-direction: column;
-  flex-direction: row;
+  justify-content: center;
+
 }
 
 .card-body-container {
   background-color: #f7f7f7;
+  border: 5px solid red;
   border-radius: 16px;
+  width: 50%;
 }
 
 .cont-nav {
   background-color: aqua;
-  display: flex;
+  border: 5px solid blue;
+  width: 50%;
 }
 
 nav ul {
-  max-width: 50%;
-  display: flex;
   justify-content: space-between;
   margin: auto;
   padding: 0;
