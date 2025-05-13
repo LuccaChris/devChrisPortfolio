@@ -20,13 +20,13 @@ body {
   background-color: #f7f7f7;
   border: 5px solid red;
   border-radius: 16px;
-  width: 50%;
+  width: 25%;
 }
 
 .cont-nav {
   background-color: aqua;
   border: 5px solid blue;
-  width: 50%;
+
 }
 
 nav ul {
